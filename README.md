@@ -10,11 +10,13 @@ The following examples show declarations of a WordMatch object. The tables show 
 
 WordMatch game = new WordMatch("mississippi");
 
-![image](https://github.com/techarenz/CS.12.01-Tutorial.1.2.4/assets/57818506/9515fda8-bf0e-436b-92e1-1ec5746a774f)
+![image](https://github.com/techarenz/CS.12.01-Tutorial.1.2.4/assets/57818506/dc175aca-637f-44dd-bf12-77a0d1419369)
+
 
 WordMatch game = new WordMatch("aaaabb");
 
-![image](https://github.com/techarenz/CS.12.01-Tutorial.1.2.4/assets/57818506/56cf2af7-e56d-406a-bea4-69c76065a5e7)
+![image](https://github.com/techarenz/CS.12.01-Tutorial.1.2.4/assets/57818506/66b18a1f-4a5b-4ec1-b094-daef4ce412e4)
+
 
 Write the WordMatch method findBetterGuess, which returns the better guess of its two String parameters, guess1 and guess2. If the scoreGuess method returns different values for guess1 and guess2, then the guess with the higher score is returned. If the scoreGuess method returns the same value for guess1 and guess2, then the alphabetically greater guess is returned. 
 
@@ -22,7 +24,8 @@ The following example shows a declaration of a WordMatch object and the outcomes
 
 WordMatch game = new WordMatch(“concatenation”);
 
-![image](https://github.com/techarenz/CS.12.01-Tutorial.1.2.4/assets/57818506/e3c1bf6a-ae81-468e-ad84-6d730f58cede)
+![image](https://github.com/techarenz/CS.12.01-Tutorial.1.2.4/assets/57818506/c4bd5523-e121-4ebb-8198-4ad5f2586aa9)
+
 
 Write the complete WordMatch class, including the constructor and any required instance variables and methods. Your implementation must pass all of the tests in the WordMatchTest class (provided).
 
